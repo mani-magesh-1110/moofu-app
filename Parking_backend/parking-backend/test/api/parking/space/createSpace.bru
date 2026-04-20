@@ -1,0 +1,24 @@
+meta {
+  name: createSpace
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{http://localhost:5000}}/api/parking-space
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+      "lenderId":"d2c04c21-dec6-4845-851e-6cfd9d4d8a17",
+      "name":"Mani's apartment",
+      "bikeSLots":1,
+      "carSlots":2
+  }
+}
+
+settings {
+  encodeUrl: true
+}

@@ -1,0 +1,15 @@
+meta {
+  name: fetchBookingByLogs
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://localhost:5000/api/booking/86dab7c5-45d3-4899-84d3-60f6877da852/logs
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}

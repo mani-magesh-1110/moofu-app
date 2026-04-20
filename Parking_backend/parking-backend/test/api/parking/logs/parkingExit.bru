@@ -1,0 +1,21 @@
+meta {
+  name: parkingExit
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:5000/api/parking/exit
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+      "bookingId":"6105140d-468d-4620-83d9-cda82044e677"
+  }
+}
+
+settings {
+  encodeUrl: true
+}
