@@ -185,6 +185,7 @@ export function BookingProvider({ children }: { children: React.ReactNode }) {
   const createBookingAndClearDraft = useCallback(
     async (paymentMethodId: PaymentMethodId) => {
       if (!draft) return null;
+      if (!draft.vehicleType) return null; // Vehicle type is required
       const parking = getParkingById(draft.parkingId, parkingLots);
       if (!parking) return null;
 

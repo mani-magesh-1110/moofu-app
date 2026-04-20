@@ -147,15 +147,14 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "rgba(0,0,0,0.10)",
   },
-  title: { fontSize: 20, fontWeight: "800" as const, color: Colors.text, ...FontFamily.montserratExtraBold },
-  subtitle: { marginTop: 6, fontWeight: "600" as const, color: Colors.mutedText, fontSize: 12, ...FontFamily.interMedium },
+  title: { fontSize: 20, color: Colors.text, ...FontFamily.montserratExtraBold },
+  subtitle: { marginTop: 6, color: Colors.mutedText, fontSize: 12, ...FontFamily.interMedium },
   otpGroup: { flexDirection: "row", marginTop: 14, borderRadius: 12, overflow: "hidden", borderWidth: 1, borderColor: "rgba(0,0,0,0.25)" },
   otpBox: {
     width: 54,
     height: 42,
     backgroundColor: Colors.surface,
-    textAlign: "center",
-    fontWeight: "800",
+    textAlign: "center" as const,
     fontSize: 16,
     color: Colors.text,
     borderRightWidth: 1,
@@ -164,7 +163,7 @@ const styles = StyleSheet.create({
   },
   otpFirst: {},
   otpLast: { borderRightWidth: 0 },
-  resend: { fontWeight: "700" as const, color: Colors.brandDark, textDecorationLine: "underline", marginTop: 6, ...FontFamily.montserratBold },
-  errorText: { marginTop: 10, color: Colors.danger, fontWeight: "700" as const, ...FontFamily.montserratBold },
+  resend: { color: Colors.brandDark, textDecorationLine: "underline" as const, marginTop: 6, ...FontFamily.montserratBold },
+  errorText: { marginTop: 10, color: Colors.danger, ...FontFamily.montserratBold },
 });
 

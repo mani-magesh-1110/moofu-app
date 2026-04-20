@@ -212,7 +212,6 @@ const styles = StyleSheet.create({
   },
   logo: {
     fontSize: 40,
-    fontWeight: "900",
     color: Colors.brand,
     letterSpacing: 2.8,
     textDecorationLine: "none" as const,
@@ -245,7 +244,6 @@ const styles = StyleSheet.create({
   welcomeTextCol: { flex: 1, paddingRight: 12 },
   welcomeTitle: {
     fontSize: 32,
-    fontWeight: "900",
     color: Colors.text,
     letterSpacing: -0.5,
     ...FontFamily.montserratExtraBold,
@@ -253,7 +251,6 @@ const styles = StyleSheet.create({
   welcomeSub: {
     marginTop: 10,
     fontSize: 14,
-    fontWeight: "500" as const,
     color: Colors.text,
     lineHeight: 21,
     ...FontFamily.interRegular,
@@ -346,7 +343,6 @@ const styles = StyleSheet.create({
     marginTop: 32,
     marginBottom: 18,
     fontSize: 22,
-    fontWeight: "800" as const,
     color: Colors.text,
     letterSpacing: -0.5,
     ...FontFamily.montserratExtraBold,
@@ -375,7 +371,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     marginBottom: 16,
   },
-  notificationsTitle: { fontSize: 18, fontWeight: "800" as const, color: Colors.text, ...FontFamily.montserratExtraBold },
+  notificationsTitle: { fontSize: 18, color: Colors.text, ...FontFamily.montserratExtraBold },
   notificationsMeta: { marginTop: 4, fontSize: 12, color: Colors.mutedText },
   closeBtn: {
     width: 36,
@@ -405,7 +401,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   notificationBody: { flex: 1 },
-  notificationTitle: { fontSize: 14, fontWeight: "800" as const, color: Colors.text, ...FontFamily.montserratBold },
+  notificationTitle: { fontSize: 14, color: Colors.text, ...FontFamily.montserratBold },
   notificationText: { marginTop: 4, fontSize: 12, color: Colors.mutedText, lineHeight: 18 },
   notificationTime: { marginLeft: 8, fontSize: 11, color: Colors.mutedText },
   notificationsAction: { marginTop: 4, height: 44 },
@@ -449,7 +445,6 @@ const styles = StyleSheet.create({
   serviceLabel: {
     marginTop: 12,
     fontSize: 14,
-    fontWeight: "700" as const,
     color: Colors.text,
     ...FontFamily.montserratBold,
   },
@@ -465,7 +460,6 @@ const styles = StyleSheet.create({
   },
   adText: {
     fontSize: 17,
-    fontWeight: "700" as const,
     color: Colors.text,
     ...FontFamily.montserratBold,
   },

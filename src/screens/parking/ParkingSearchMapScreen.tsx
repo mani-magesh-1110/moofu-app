@@ -13,6 +13,9 @@ export default function ParkingSearchMapScreen({ navigation }: any) {
   const { showToast } = useToast();
   const [searchQuery, setSearchQuery] = useState("");
   const [loading, setLoading] = useState(parkingLots.length === 0);
+  const [showResults, setShowResults] = useState(false);
+  const [openNow, setOpenNow] = useState(false);
+  const [topRated, setTopRated] = useState(false);
 
   useEffect(() => {
     // Update loading state when parking lots are loaded
@@ -21,22 +24,16 @@ export default function ParkingSearchMapScreen({ navigation }: any) {
     }
   }, [parkingLots]);
 
-  const [showResults, setShowResults] = useState(false);
-  const [openNow, setOpenNow] = useState(true);
-  const [topRated, setTopRated] = useState(false);
-  const [searchQuery, setSearchQuery] = useState("");
-
   const filtered = useMemo(() => {
     let list = parkingLots.slice();
-    if (openNow) list = list.filter((p) => p.isOpen);
-    if (topRated) list = list.filter((p) => p.rating >= 4.5);
+    if (openNow) list = list.filter((p) => p.availableSpots > 0);
+    if (topRated) list = list.filter((p) => p.hourlyRate <= 50); // Filter by affordable rate
     const query = searchQuery.trim().toLowerCase();
     if (query.length > 0) {
       list = list.filter(
         (p) =>
           p.name.toLowerCase().includes(query) ||
-          p.area.toLowerCase().includes(query) ||
-          p.city.toLowerCase().includes(query)
+          p.area.toLowerCase().includes(query)
       );
     }
     return list;

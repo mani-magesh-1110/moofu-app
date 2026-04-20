@@ -49,12 +49,12 @@ export const FontFamily = {
 } as const;
 
 export const Typography = {
-  h1: { fontSize: 28, fontWeight: "800" as const, letterSpacing: -0.4, ...FontFamily.montserratExtraBold },
-  h2: { fontSize: 20, fontWeight: "800" as const, letterSpacing: -0.2, ...FontFamily.montserratExtraBold },
-  h3: { fontSize: 16, fontWeight: "800" as const, letterSpacing: -0.1, ...FontFamily.montserratBold },
-  body: { fontSize: 14, fontWeight: "600" as const, color: Colors.text, ...FontFamily.montserratBold },
-  bodyRegular: { fontSize: 14, fontWeight: "400" as const, color: Colors.text, ...FontFamily.interRegular },
-  caption: { fontSize: 12, fontWeight: "600" as const, color: Colors.mutedText, ...FontFamily.montserratBold },
-  bodyMedium: { fontSize: 14, fontWeight: "500" as const, color: Colors.text, ...FontFamily.poppinsMedium },
+  h1: { fontSize: 28, letterSpacing: -0.4, ...FontFamily.montserratExtraBold },
+  h2: { fontSize: 20, letterSpacing: -0.2, ...FontFamily.montserratExtraBold },
+  h3: { fontSize: 16, letterSpacing: -0.1, ...FontFamily.montserratBold },
+  body: { fontSize: 14, color: Colors.text, ...FontFamily.montserratBold },
+  bodyRegular: { fontSize: 14, color: Colors.text, ...FontFamily.interRegular },
+  caption: { fontSize: 12, color: Colors.mutedText, ...FontFamily.montserratBold },
+  bodyMedium: { fontSize: 14, color: Colors.text, ...FontFamily.poppinsMedium },
 } as const;
 

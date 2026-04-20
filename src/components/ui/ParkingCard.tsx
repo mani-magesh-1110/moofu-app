@@ -2,8 +2,6 @@ import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { Colors, Radius } from "../../theme/theme";
 import { ParkingLot } from "../../types/models";
-import RatingStars from "./RatingStars";
-import { formatKm } from "../../utils/formatters";
 
 type Props = {
   parking: ParkingLot;
@@ -11,6 +9,11 @@ type Props = {
 };
 
 export default function ParkingCard({ parking, onPress }: Props) {
+  const availabilityPercentage = parking.totalSpots > 0 
+    ? Math.round((parking.availableSpots / parking.totalSpots) * 100)
+    : 0;
+  const isAvailable = parking.availableSpots > 0;
+
   return (
     <TouchableOpacity
       activeOpacity={0.92}
@@ -24,19 +27,18 @@ export default function ParkingCard({ parking, onPress }: Props) {
       </Text>
 
       <View style={styles.rowMid}>
-        <Text style={styles.ratingValue}>{parking.rating.toFixed(1)}</Text>
-        <RatingStars rating={parking.rating} size={12} showValue={false} />
+        <Text style={styles.priceValue}>₹{parking.hourlyRate}/hr</Text>
         <Text style={styles.dot}>•</Text>
-        <Text style={styles.distance}>{formatKm(parking.distanceKm)}</Text>
+        <Text style={styles.distance}>{parking.area}</Text>
       </View>
 
       <View style={styles.rowBottom}>
-        <Text style={[styles.open, parking.isOpen ? styles.openYes : styles.openNo]}>
-          {parking.isOpen ? "Open" : "Closed"}
+        <Text style={[styles.open, isAvailable ? styles.openYes : styles.openNo]}>
+          {isAvailable ? "Available" : "Full"}
         </Text>
         <Text style={styles.dot}>•</Text>
         <Text style={styles.avail} numberOfLines={1}>
-          {parking.availabilityText}
+          {parking.availableSpots}/{parking.totalSpots} spots ({availabilityPercentage}%)
         </Text>
       </View>
     </TouchableOpacity>
@@ -54,7 +56,7 @@ const styles = StyleSheet.create({
   },
   name: { fontSize: 15, fontWeight: "700", color: Colors.text },
   rowMid: { flexDirection: "row", alignItems: "center", gap: 6, marginTop: 6 },
-  ratingValue: { fontSize: 12, fontWeight: "700", color: Colors.text },
+  priceValue: { fontSize: 12, fontWeight: "700", color: Colors.brand },
   dot: { fontSize: 12, fontWeight: "700", color: Colors.mutedText },
   distance: { fontWeight: "700", color: Colors.mutedText, fontSize: 12 },
   rowBottom: { flexDirection: "row", alignItems: "center", gap: 6, marginTop: 6 },
