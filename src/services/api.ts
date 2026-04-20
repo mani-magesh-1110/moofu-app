@@ -1,5 +1,6 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { Platform } from "react-native";
+import { mockParkingLots } from "../data/mockData";
 
 // Configure Base URL - Update this based on your backend deployment
 // For local development on Android emulator: http://10.0.2.2:5000/api
@@ -21,6 +22,7 @@ const getAPIBaseURL = () => {
 
 const API_BASE_URL = getAPIBaseURL();
 const TOKEN_STORAGE_KEY = "moofu_auth_token";
+const USE_MOCK_DATA = true; // Set to true for development without backend
 
 type ApiError = {
   status: number;
@@ -153,6 +155,10 @@ export const authAPI = {
    * POST /auth/otp/request
    */
   requestOTP: async (phoneNumber: string) => {
+    if (USE_MOCK_DATA) {
+      // Mock response for development
+      return { message: "OTP sent to +91" + phoneNumber };
+    }
     return api.post<{ message: string }>("/auth/otp/request", {
       phoneNumber,
     });
@@ -164,6 +170,22 @@ export const authAPI = {
    * Response: { user: User, token: string }
    */
   verifyOTP: async (phoneNumber: string, otp: string) => {
+    if (USE_MOCK_DATA) {
+      // Mock response for development
+      const mockToken = "mock_token_" + Math.random().toString(36).substr(2, 9);
+      await api.saveToken(mockToken);
+      return {
+        user: {
+          id: "user_" + phoneNumber,
+          name: "MOOFU User",
+          phone: phoneNumber,
+          location: "New Delhi",
+          vehicleNumber: "DL01AB1234",
+        },
+        token: mockToken,
+      };
+    }
+    
     const response = await api.post<{
       user: any;
       token: string;
@@ -194,6 +216,16 @@ export const authAPI = {
    * Requires: Authorization header with JWT token
    */
   getProfile: async () => {
+    if (USE_MOCK_DATA) {
+      return {
+        id: "user_1234567890",
+        name: "MOOFU User",
+        phone: "1234567890",
+        location: "New Delhi",
+        vehicleNumber: "DL01AB1234",
+      };
+    }
+    
     const user = await api.get<any>("/auth/me");
     // Map backend response to frontend User model
     return {
@@ -215,6 +247,17 @@ export const authAPI = {
     location?: string;
     vehicleNumber?: string;
   }) => {
+    if (USE_MOCK_DATA) {
+      // Mock response - just return the updated data
+      return {
+        id: "user_1234567890",
+        name: updates.name || "MOOFU User",
+        phone: "1234567890",
+        location: updates.location || "New Delhi",
+        vehicleNumber: updates.vehicleNumber || "DL01AB1234",
+      };
+    }
+    
     const user = await api.put<any>("/auth/profile", updates);
     // Map backend response to frontend User model
     return {
@@ -245,6 +288,10 @@ export const parkingAPI = {
    * Response: { spaces: ParkingSpace[] }
    */
   getAllParkings: async () => {
+    if (USE_MOCK_DATA) {
+      // Return mock parking lots
+      return { spaces: mockParkingLots };
+    }
     return api.get<{ spaces: any[] }>("/parking");
   },
 
@@ -254,6 +301,10 @@ export const parkingAPI = {
    * Response: { space: ParkingSpace }
    */
   getParkingById: async (id: string) => {
+    if (USE_MOCK_DATA) {
+      const space = mockParkingLots.find(p => p.id === id);
+      return { space: space || mockParkingLots[0] };
+    }
     return api.get<{ space: any }>(`/parking/${id}`);
   },
 
@@ -263,6 +314,12 @@ export const parkingAPI = {
    * Response: { spaces: ParkingSpace[] }
    */
   searchByArea: async (area: string) => {
+    if (USE_MOCK_DATA) {
+      const spaces = mockParkingLots.filter(p => 
+        p.area.toLowerCase().includes(area.toLowerCase())
+      );
+      return { spaces: spaces.length > 0 ? spaces : mockParkingLots };
+    }
     return api.get<{ spaces: any[] }>(`/parking/search/area?area=${area}`);
   },
 };
@@ -292,6 +349,16 @@ export const bookingAPI = {
     totalAmount: number;
     paymentMethodId: string;
   }) => {
+    if (USE_MOCK_DATA) {
+      // Mock response
+      const booking = {
+        id: "booking_" + Math.random().toString(36).substr(2, 9),
+        tokenNo: "TOK" + Math.floor(Math.random() * 10000),
+        ...bookingData,
+        createdAtISO: new Date().toISOString(),
+      };
+      return booking;
+    }
     return api.post<any>("/booking", bookingData);
   },
 
@@ -302,6 +369,10 @@ export const bookingAPI = {
    * Response: { bookings: Booking[] }
    */
   getBookings: async () => {
+    if (USE_MOCK_DATA) {
+      // Return empty bookings for mock mode
+      return { bookings: [] };
+    }
     return api.get<{ bookings: any[] }>("/booking/history/user");
   },
 
@@ -311,6 +382,27 @@ export const bookingAPI = {
    * Requires: Authorization header with JWT token
    */
   getBookingById: async (id: string) => {
+    if (USE_MOCK_DATA) {
+      // Mock response
+      return {
+        id: id,
+        tokenNo: "TOK123",
+        parkingId: "lot_1",
+        vehicleType: "car",
+        vehicleNumber: "DL01AB1234",
+        arrivalDateISO: new Date().toISOString().split('T')[0],
+        arrivalTimeLabel: "10:00 AM",
+        departureDateISO: new Date().toISOString().split('T')[0],
+        departureTimeLabel: "02:00 PM",
+        durationHours: 4,
+        selectedMonthlyPlanId: null,
+        estimatedSubtotal: 200,
+        convenienceFee: 10,
+        totalAmount: 210,
+        paymentMethodId: "google_pay",
+        createdAtISO: new Date().toISOString(),
+      };
+    }
     return api.get<any>(`/booking/${id}`);
   },
 
@@ -320,6 +412,10 @@ export const bookingAPI = {
    * Requires: Authorization header with JWT token
    */
   cancelBooking: async (id: string) => {
+    if (USE_MOCK_DATA) {
+      // Mock response
+      return { message: "Booking cancelled successfully" };
+    }
     return api.delete<any>(`/booking/${id}`);
   },
 };

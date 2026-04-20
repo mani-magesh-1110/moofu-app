@@ -26,22 +26,12 @@ export interface ParkingSpot {
 export interface ParkingLot {
   id: string;
   name: string;
-  rating: number; // 0-5
-  distanceKm: number;
-  isOpen: boolean;
-  availabilityText: string;
-  imageUrl?: string;
-  location: {
-    address: string;
-    area: string;
-    city: string;
-  };
-  pricing: {
-    hourlyRate: number;
-    convenienceFee: number;
-    monthlyPlans: Array<{ id: string; label: string; monthlyPrice: number }>;
-  };
-  spots: ParkingSpot[];
+  area: string;
+  hourlyRate: number;
+  convenienceFee: number;
+  monthlyPlans: Array<{ id: string; name: string; price: number }>;
+  availableSpots: number;
+  totalSpots: number;
 }
 
 export interface VehicleType {
