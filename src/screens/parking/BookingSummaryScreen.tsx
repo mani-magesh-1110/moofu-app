@@ -1,4 +1,4 @@
-import React, { useMemo, useState, useEffect } from "react";
+import React, { useMemo } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import ScreenContainer from "../../components/ui/ScreenContainer";
 import Header from "../../components/ui/Header";
@@ -9,17 +9,12 @@ import SummaryRow from "../../components/ui/SummaryRow";
 import { formatINR } from "../../utils/formatters";
 
 export default function BookingSummaryScreen({ navigation }: any) {
-  const { draft } = useBooking();
-  const [parking, setParking] = useState<any>(null);
+  const { draft, parkingLots } = useBooking();
 
-  useEffect(() => {
-    // TODO: Fetch parking details from backend API using draft.parkingId
-    // const fetchParking = async () => {
-    //   const response = await api.get(`/parking/${draft?.parkingId}`);
-    //   setParking(response.data.data);
-    // };
-    // if (draft) fetchParking();
-  }, [draft]);
+  const parking = useMemo(() => {
+    if (!draft?.parkingId) return null;
+    return parkingLots.find((p) => p.id === draft.parkingId) ?? null;
+  }, [draft, parkingLots]);
 
   if (!draft || !parking) {
     return (
@@ -57,7 +52,7 @@ export default function BookingSummaryScreen({ navigation }: any) {
           <SummaryRow label="Parking Name" value={parking.name} />
           <SummaryRow label="Vehicle type" value={vehicleTypeLabel} />
           <SummaryRow label="Vehicle Number" value={draft.vehicleNumber || "—"} />
-          <SummaryRow label="Location" value={`${parking.location.area}, ${parking.location.city}`} />
+          <SummaryRow label="Location" value={parking.area} />
           <SummaryRow label="Arrival Time" value={draft.arrivalTimeLabel ?? "—"} />
           <SummaryRow label="Departure Time" value={draft.departureTimeLabel ?? "—"} />
           <SummaryRow label="Duration / Days" value={durationLabel} />

@@ -11,19 +11,14 @@ import { isValidVehicleNumber, normalizeVehicleNumber } from "../../utils/valida
 
 export default function ParkingDetailsScreen({ route, navigation }: any) {
   const parkingId = route?.params?.parkingId as string | undefined;
-  const { draft, startDraftForParking, setVehicleType, setVehicleNumber, selectMonthlyPlan } = useBooking();
-  const [parking, setParking] = useState<any>(null);
+  const { draft, startDraftForParking, setVehicleType, setVehicleNumber, selectMonthlyPlan, parkingLots } = useBooking();
   const [error, setError] = useState<string | null>(null);
   const [planMode, setPlanMode] = useState<"timing" | "monthly">("timing");
 
-  useEffect(() => {
-    // TODO: Fetch parking details from backend API
-    // const fetchParking = async () => {
-    //   const response = await api.get(`/parking/${parkingId}`);
-    //   setParking(response.data.data);
-    // };
-    // if (parkingId) fetchParking();
-  }, [parkingId]);
+  const parking = useMemo(() => {
+    if (!parkingId) return null;
+    return parkingLots.find((p) => p.id === parkingId) ?? null;
+  }, [parkingId, parkingLots]);
 
   useEffect(() => {
     if (!parkingId) return;
@@ -51,11 +46,11 @@ export default function ParkingDetailsScreen({ route, navigation }: any) {
   const durationLabel = `${draft.durationHours ?? 0}h`;
   const estimatedPrice = formatINR(draft.totalAmount);
 
-  const hourlyCar = parking.pricing.hourlyRate;
+  const hourlyCar = parking.hourlyRate;
   const hourlyBike = Math.max(10, Math.round(hourlyCar * 0.6));
 
-  const planA = parking.pricing.monthlyPlans[0];
-  const planB = parking.pricing.monthlyPlans[1];
+  const planA = parking.monthlyPlans?.[0];
+  const planB = parking.monthlyPlans?.[1];
 
   return (
     <ScreenContainer scroll={false}>
@@ -77,7 +72,7 @@ export default function ParkingDetailsScreen({ route, navigation }: any) {
                 {parking.name}
               </Text>
               <Text style={styles.heroAddr} numberOfLines={1}>
-                {parking.location.area}
+                {parking.area}
               </Text>
             </View>
           </View>
