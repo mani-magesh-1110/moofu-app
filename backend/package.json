@@ -7,7 +7,9 @@
     "dev": "nodemon src/server.js",
     "start": "node src/server.js",
     "db:init": "node scripts/init-db.js",
-    "test": "node scripts/test-api.js",
+    "test": "jest --testPathPattern=__tests__ --detectOpenHandles",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
     "test:api": "node scripts/test-api.js"
   },
   "dependencies": {
@@ -15,11 +17,17 @@
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^4.19.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "joi": "^17.11.0",
     "jsonwebtoken": "^9.0.2",
-    "pg": "^8.16.0"
+    "pg": "^8.16.0",
+    "winston": "^3.11.0"
   },
   "devDependencies": {
+    "jest": "^29.7.0",
     "nodemon": "^3.1.10",
-    "pg-mem": "^3.0.14"
+    "pg-mem": "^3.0.14",
+    "supertest": "^6.3.3"
   }
 }

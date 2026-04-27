@@ -1,3 +1,5 @@
+const logger = require('../utils/logger');
+
 function errorHandler(err, req, res, next) {
   const constraintMessages = {
     users_email_key: 'Email already registered',
@@ -7,6 +9,7 @@ function errorHandler(err, req, res, next) {
 
   let statusCode = err.statusCode || 500;
   let message = err.message || 'Internal Server Error';
+  const errorId = Date.now().toString(36) + Math.random().toString(36).substr(2);
 
   if (!err.statusCode && err.code) {
     if (err.code === '23505') {
@@ -22,13 +25,24 @@ function errorHandler(err, req, res, next) {
   }
 
   if (statusCode >= 500) {
-    console.error('[ERROR]', err);
+    logger.error(`[${errorId}] ${err.message}`, { 
+      error: err.stack,
+      path: req.path,
+      method: req.method,
+    });
     message = 'Internal Server Error';
+  } else if (statusCode >= 400) {
+    logger.warn(`[${errorId}] ${message}`, { 
+      path: req.path,
+      method: req.method,
+      statusCode,
+    });
   }
 
   return res.status(statusCode).json({
     success: false,
     message,
+    errorId: statusCode >= 500 ? errorId : undefined,
   });
 }
 
