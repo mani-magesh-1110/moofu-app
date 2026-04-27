@@ -29,7 +29,7 @@ export interface ParkingLot {
   area: string;
   hourlyRate: number;
   convenienceFee: number;
-  monthlyPlans: Array<{ id: string; name: string; price: number }>;
+  monthlyPlans?: Array<{ id: string; name: string; price: number }>;
   availableSpots: number;
   totalSpots: number;
 }
@@ -75,7 +75,6 @@ export interface BookingDraft {
   departureDateISO: string | null;
   departureTimeLabel: string | null;
   durationHours: number;
-  selectedMonthlyPlanId: string | null;
   estimatedSubtotal: number;
   convenienceFee: number;
   totalAmount: number;
@@ -85,6 +84,9 @@ export interface Booking extends BookingDraft {
   id: string;
   tokenNo: string;
   paymentMethodId: PaymentMethodId;
+  startTime: string;
+  endTime: string;
+  status: "confirmed" | "cancelled";
   createdAtISO: string;
 }
 

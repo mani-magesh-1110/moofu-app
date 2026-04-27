@@ -31,7 +31,7 @@ function getTodayISO() {
 }
 
 export default function CalendarTimePickerScreen({ navigation }: any) {
-  const { draft, setArrivalAndDeparture, setDurationHours } = useBooking();
+  const { draft, setArrivalAndDeparture } = useBooking();
 
   const initialArrivalISO = draft?.arrivalDateISO ?? getTodayISO();
   const initialArrivalMinutes = useMemo(() => {
@@ -126,9 +126,6 @@ export default function CalendarTimePickerScreen({ navigation }: any) {
                 dDate = new Date(dDate.getTime() + 24 * 60 * 60 * 1000);
               }
 
-              const diffHours = Math.max(1, Math.ceil((dDate.getTime() - aDate.getTime()) / (60 * 60 * 1000)));
-
-              setDurationHours(diffHours);
               setArrivalAndDeparture({
                 arrivalDateISO: arrivalISO,
                 arrivalTimeLabel: toTimeLabel(aDate),

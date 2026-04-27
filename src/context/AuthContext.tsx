@@ -1,8 +1,7 @@
-import React, { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react";
+import React, { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { User } from "../types/models";
 import { isValidOtp, isValidPhoneNumber, normalizePhoneInput } from "../utils/validators";
-import { addMinutes } from "../utils/formatters";
 import { authAPI } from "../services/api";
 
 const STORAGE_KEY = "moofu_auth_v1";
@@ -30,8 +29,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [loggedIn, setLoggedIn] = useState(false);
   const [user, setUser] = useState<User | null>(null);
   const [pendingPhone, setPendingPhone] = useState<string | null>(null);
-  const otpRef = useRef<string>("");
-  const otpExpiryRef = useRef<Date | null>(null);
 
   useEffect(() => {
     (async () => {

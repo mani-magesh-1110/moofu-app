@@ -38,8 +38,8 @@ export default function HomeScreen({ navigation }: Props) {
     },
     {
       id: "offer",
-      title: "Save with monthly plan",
-      body: "Choose a monthly parking plan to save on repeated bookings.",
+      title: "Parking tips",
+      body: "Check availability before you arrive for the smoothest parking experience.",
       time: "Today",
     },
   ];
