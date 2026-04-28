@@ -2,10 +2,13 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
+// Allow DATABASE_URL to be optional in test mode
+const nodeEnv = process.env.NODE_ENV || 'development';
+
 module.exports = {
-  nodeEnv: process.env.NODE_ENV || 'development',
+  nodeEnv,
   port: Number(process.env.PORT) || 5000,
-  databaseUrl: process.env.DATABASE_URL,
+  databaseUrl: process.env.DATABASE_URL || null,
   jwtSecret: process.env.JWT_SECRET,
   jwtExpiresIn: process.env.JWT_EXPIRES_IN || '7d',
   adminSignupSecret: process.env.ADMIN_SIGNUP_SECRET || '',

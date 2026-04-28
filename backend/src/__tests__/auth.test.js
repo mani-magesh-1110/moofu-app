@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('../../app');
+const app = require('../app');
 
 describe('Authentication API', () => {
   let token;
@@ -40,7 +40,7 @@ describe('Authentication API', () => {
   });
 
   describe('POST /api/auth/otp/verify', () => {
-    before(async () => {
+    beforeAll(async () => {
       // Request OTP first
       await request(app)
         .post('/api/auth/otp/request')

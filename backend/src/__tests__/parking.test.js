@@ -1,31 +1,13 @@
 const request = require('supertest');
-const app = require('../../app');
+const app = require('../app');
+const { adminToken } = require('./test-tokens');
 
 describe('Parking APIs', () => {
-  let adminToken;
   let stationId;
 
   beforeAll(async () => {
-    // Create admin user
-    await request(app)
-      .post('/api/auth/signup')
-      .send({
-        name: 'Admin User',
-        email: 'admin@moofu.app',
-        phoneNumber: '+919999999999',
-        password: 'AdminPass123',
-        role: 'admin',
-        adminSignupSecret: process.env.ADMIN_SIGNUP_SECRET || 'local_admin_secret',
-      });
-
-    const loginRes = await request(app)
-      .post('/api/auth/login')
-      .send({
-        email: 'admin@moofu.app',
-        password: 'AdminPass123',
-      });
-
-    adminToken = loginRes.body.data.token;
+    // Using mock admin token for testing without database
+    // In production, this would require actual authentication
   });
 
   describe('POST /api/parking', () => {

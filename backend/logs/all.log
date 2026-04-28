@@ -1,0 +1,274 @@
+2026-04-27 14:16:32:1632 [33mwarn[39m: [33m⚠️ Database connection failed (continuing in dev mode):[39m
+2026-04-27 14:16:32:1632 [33mwarn[39m: [33mTo use the API, start PostgreSQL or use the integration tests[39m
+2026-04-27 14:16:32:1632 [32minfo[39m: [32m🚀 MOOFU backend running on port 5000[39m
+2026-04-27 14:16:32:1632 [32minfo[39m: [32m📚 API docs: http://localhost:5000/api[39m
+2026-04-27 14:16:32:1632 [32minfo[39m: [32m💚 Health check: http://localhost:5000/health[39m
+2026-04-27 14:16:36:1636 [33mwarn[39m: [33m⚠️ Database connection failed (continuing in dev mode):[39m
+2026-04-27 14:16:36:1636 [33mwarn[39m: [33mTo use the API, start PostgreSQL or use the integration tests[39m
+2026-04-27 14:16:36:1636 [32minfo[39m: [32m🚀 MOOFU backend running on port 5000[39m
+2026-04-27 14:16:36:1636 [32minfo[39m: [32m📚 API docs: http://localhost:5000/api[39m
+2026-04-27 14:16:36:1636 [32minfo[39m: [32m💚 Health check: http://localhost:5000/health[39m
+2026-04-27 14:16:37:1637 [33mwarn[39m: [33m⚠️ Database connection failed (continuing in dev mode):[39m
+2026-04-27 14:16:37:1637 [33mwarn[39m: [33mTo use the API, start PostgreSQL or use the integration tests[39m
+2026-04-27 14:16:37:1637 [32minfo[39m: [32m🚀 MOOFU backend running on port 5000[39m
+2026-04-27 14:16:37:1637 [32minfo[39m: [32m📚 API docs: http://localhost:5000/api[39m
+2026-04-27 14:16:37:1637 [32minfo[39m: [32m💚 Health check: http://localhost:5000/health[39m
+2026-04-27 14:16:46:1646 [33mwarn[39m: [33m⚠️ Database connection failed (continuing in dev mode):[39m
+2026-04-27 14:16:46:1646 [33mwarn[39m: [33mTo use the API, start PostgreSQL or use the integration tests[39m
+2026-04-27 14:16:46:1646 [32minfo[39m: [32m🚀 MOOFU backend running on port 5000[39m
+2026-04-27 14:16:46:1646 [32minfo[39m: [32m📚 API docs: http://localhost:5000/api[39m
+2026-04-27 14:16:46:1646 [32minfo[39m: [32m💚 Health check: http://localhost:5000/health[39m
+2026-04-27 14:16:56:1656 [35mhttp[39m: [35mGET /health - 200 (4ms)[39m
+2026-04-27 14:18:28:1828 [35mhttp[39m: [35mGET /health - 200 (1ms)[39m
+2026-04-27 14:18:28:1828 [33mwarn[39m: [33mGET /favicon.ico - 404 (2ms)[39m
+2026-04-27 14:38:39:3839 [33mwarn[39m: [33m⚠️ Database connection failed (continuing in dev mode):[39m
+2026-04-27 14:38:39:3839 [33mwarn[39m: [33mTo use the API, start PostgreSQL or use the integration tests[39m
+2026-04-27 14:38:39:3839 [32minfo[39m: [32m🚀 MOOFU backend running on port 5000[39m
+2026-04-27 14:38:39:3839 [32minfo[39m: [32m📚 API docs: http://localhost:5000/api[39m
+2026-04-27 14:38:39:3839 [32minfo[39m: [32m💚 Health check: http://localhost:5000/health[39m
+2026-04-27 19:57:49:5749 [33mwarn[39m: [33m⚠️ Database connection failed (continuing in dev mode):[39m
+2026-04-27 19:57:49:5749 [33mwarn[39m: [33mTo use the API, start PostgreSQL or use the integration tests[39m
+2026-04-27 19:57:49:5749 [32minfo[39m: [32m🚀 MOOFU backend running on port 5000[39m
+2026-04-27 19:57:49:5749 [32minfo[39m: [32m📚 API docs: http://localhost:5000/api[39m
+2026-04-27 19:57:49:5749 [32minfo[39m: [32m💚 Health check: http://localhost:5000/health[39m
+2026-04-27 19:59:32:5932 [35mhttp[39m: [35mGET /health - 200 (10ms)[39m
+2026-04-27 19:59:56:5956 [35mhttp[39m: [35mGET /health - 304 (2ms)[39m
+2026-04-27 19:59:56:5956 [33mwarn[39m: [33mGET /favicon.ico - 404 (2ms)[39m
+2026-04-27 20:05:03:53 [33mwarn[39m: [33m[mohatxctfemleor89kk] phoneNumber must be a 10 digit number[39m
+2026-04-27 20:05:03:53 [33mwarn[39m: [33mPOST /api/auth/signup - 400 (25ms)[39m
+2026-04-27 20:05:03:53 [31merror[39m: [31m[mohatxf4qyg4x9y6kr] [39m
+2026-04-27 20:05:03:53 [31merror[39m: [31mPOST /api/auth/login - 500 (34ms)[39m
+2026-04-27 20:05:55:555 [33mwarn[39m: [33m[mohav1220kky3xxgpjnm] phoneNumber must be a 10 digit number[39m
+2026-04-27 20:05:55:555 [33mwarn[39m: [33mPOST /api/auth/otp/request - 400 (38ms)[39m
+2026-04-27 20:05:55:555 [33mwarn[39m: [33m[mohav14f5k9cvcaek9g] phoneNumber must be a 10 digit number[39m
+2026-04-27 20:05:55:555 [33mwarn[39m: [33mPOST /api/auth/otp/verify - 400 (17ms)[39m
+2026-04-27 20:05:55:555 [33mwarn[39m: [33m[mohav16trdjyseosrv] Invalid or expired token[39m
+2026-04-27 20:05:55:555 [33mwarn[39m: [33mPOST /api/booking - 401 (21ms)[39m
+2026-04-27 20:10:12:1012 [31merror[39m: [31m[mohb0jvway8hqsyswtm] [39m
+2026-04-27 20:10:12:1012 [31merror[39m: [31mPOST /api/parking - 500 (141ms)[39m
+2026-04-27 20:10:12:1012 [33mwarn[39m: [33m[mohb0jxrd13b07fssiv] latitude must be at most 90[39m
+2026-04-27 20:10:12:1012 [33mwarn[39m: [33mPOST /api/parking - 400 (12ms)[39m
+2026-04-27 20:10:12:1012 [33mwarn[39m: [33m[mohb0jz8rye9na1jp4] hourlyRate must be at least 0[39m
+2026-04-27 20:10:12:1012 [33mwarn[39m: [33mPOST /api/parking - 400 (17ms)[39m
+2026-04-27 20:10:12:1012 [33mwarn[39m: [33m[mohb0k0jtj32781nrri] totalSpots must be at least 1[39m
+2026-04-27 20:10:12:1012 [33mwarn[39m: [33mPOST /api/parking - 400 (10ms)[39m
+2026-04-27 20:10:12:1012 [33mwarn[39m: [33m[mohb0k1svns5n6tl0r] Invalid or expired token[39m
+2026-04-27 20:10:12:1012 [33mwarn[39m: [33mPOST /api/parking - 401 (14ms)[39m
+2026-04-27 20:10:12:1012 [31merror[39m: [31m[mohb0k3rbchk68vulz9] [39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31mGET /api/parking - 500 (28ms)[39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31m[mohb0k5jpayikqqf59] [39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31mGET /api/parking - 500 (29ms)[39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31m[mohb0k7d4qmpd8ypjlc] [39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31mGET /api/parking - 500 (26ms)[39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31m[mohb0k9zv5ivmjtongq] [39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31mPOST /api/parking - 500 (43ms)[39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31m[mohb0kbm98y1toyzmtw] [39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31mGET /api/parking/00000000-0000-0000-0000-000000000000 - 500 (24ms)[39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31m[mohb0kdcxbc9ec2217h] [39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31mGET /api/parking/nearby - 500 (49ms)[39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31m[mohb0kfzccdv5zpb2rm] [39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31mGET /api/parking/nearby - 500 (27ms)[39m
+2026-04-27 20:10:13:1013 [33mwarn[39m: [33m[mohb0kho548f82x2oaq] latitude and longitude are required numbers[39m
+2026-04-27 20:10:13:1013 [33mwarn[39m: [33mGET /api/parking/nearby - 400 (15ms)[39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31m[mohb0kja18jxmdy0mr4] [39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31mGET /api/parking/search/area - 500 (30ms)[39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31m[mohb0kl0t2mknssq3e] [39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31mGET /api/parking/search/area - 500 (27ms)[39m
+2026-04-27 20:10:16:1016 [33mwarn[39m: [33m[mohb0mt12k3wmt4l2ug] parkingId is required[39m
+2026-04-27 20:10:16:1016 [33mwarn[39m: [33mPOST /api/booking - 400 (22ms)[39m
+2026-04-27 20:10:16:1016 [33mwarn[39m: [33m[mohb0mv5jalvtidupg] parkingId is required[39m
+2026-04-27 20:10:16:1016 [33mwarn[39m: [33mPOST /api/booking - 400 (23ms)[39m
+2026-04-27 20:10:16:1016 [33mwarn[39m: [33m[mohb0mx40vkauzib7lzi] parkingId is required[39m
+2026-04-27 20:10:16:1016 [33mwarn[39m: [33mPOST /api/booking - 400 (44ms)[39m
+2026-04-27 20:10:16:1016 [33mwarn[39m: [33m[mohb0mzr4fs42hpe97q] Authorization token missing[39m
+2026-04-27 20:10:16:1016 [33mwarn[39m: [33mPOST /api/booking - 401 (24ms)[39m
+2026-04-27 20:10:16:1016 [31merror[39m: [31m[mohb0n1w8xnee7ns0px] [39m
+2026-04-27 20:10:16:1016 [31merror[39m: [31mGET /api/booking/history/user - 500 (33ms)[39m
+2026-04-27 20:10:16:1016 [31merror[39m: [31m[mohb0n3gyos3cfnusy] [39m
+2026-04-27 20:10:16:1016 [31merror[39m: [31mGET /api/booking/history/user - 500 (25ms)[39m
+2026-04-27 20:10:16:1016 [33mwarn[39m: [33m[mohb0n4kotquib6ho7j] Authorization token missing[39m
+2026-04-27 20:10:16:1016 [33mwarn[39m: [33mGET /api/booking/history/user - 401 (20ms)[39m
+2026-04-27 20:10:16:1016 [31merror[39m: [31m[mohb0n6jeqoiqxvuupe] [39m
+2026-04-27 20:10:17:1017 [31merror[39m: [31mGET /api/booking/00000000-0000-0000-0000-000000000000 - 500 (38ms)[39m
+2026-04-27 20:10:17:1017 [33mwarn[39m: [33m[mohb0n89rtsb6vftbye] parkingId is required[39m
+2026-04-27 20:10:17:1017 [33mwarn[39m: [33mPOST /api/booking - 400 (16ms)[39m
+2026-04-27 20:10:17:1017 [31merror[39m: [31m[mohb0n9l03y9wc01zr4h] [39m
+2026-04-27 20:10:17:1017 [31merror[39m: [31mDELETE /api/booking/00000000-0000-0000-0000-000000000000 - 500 (30ms)[39m
+2026-04-27 20:10:17:1017 [33mwarn[39m: [33m[mohb0nazzhn4m01p65] Authorization token missing[39m
+2026-04-27 20:10:17:1017 [33mwarn[39m: [33mDELETE /api/booking/undefined - 401 (11ms)[39m
+2026-04-27 20:10:18:1018 [33mwarn[39m: [33m[mohb0o548pa5g349ats] phoneNumber must be a 10 digit number[39m
+2026-04-27 20:10:18:1018 [33mwarn[39m: [33mPOST /api/auth/otp/request - 400 (18ms)[39m
+2026-04-27 20:10:18:1018 [33mwarn[39m: [33m[mohb0o697c1si4fhtw5] phoneNumber must be a 10 digit number[39m
+2026-04-27 20:10:18:1018 [33mwarn[39m: [33mPOST /api/auth/otp/request - 400 (9ms)[39m
+2026-04-27 20:10:18:1018 [33mwarn[39m: [33m[mohb0o7e93wmytuxald] phoneNumber is required[39m
+2026-04-27 20:10:18:1018 [33mwarn[39m: [33mPOST /api/auth/otp/request - 400 (19ms)[39m
+2026-04-27 20:10:18:1018 [33mwarn[39m: [33m[mohb0o8n3u86jd5l4k] phoneNumber must be a 10 digit number[39m
+2026-04-27 20:10:18:1018 [33mwarn[39m: [33mPOST /api/auth/otp/request - 400 (14ms)[39m
+2026-04-27 20:10:18:1018 [33mwarn[39m: [33m[mohb0o9n4bj7svonx8l] phoneNumber must be a 10 digit number[39m
+2026-04-27 20:10:18:1018 [33mwarn[39m: [33mPOST /api/auth/otp/verify - 400 (9ms)[39m
+2026-04-27 20:10:18:1018 [33mwarn[39m: [33m[mohb0ocu84j4ncem39k] Authorization token missing[39m
+2026-04-27 20:10:18:1018 [33mwarn[39m: [33mGET /api/auth/me - 401 (15ms)[39m
+2026-04-27 20:10:18:1018 [33mwarn[39m: [33m[mohb0odw0vqkrrf2k56a] Invalid or expired token[39m
+2026-04-27 20:10:18:1018 [33mwarn[39m: [33mGET /api/auth/me - 401 (15ms)[39m
+2026-04-27 20:11:25:1125 [31merror[39m: [31m[mohb241bf3fraqx6575] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:25:1125 [31merror[39m: [31mPOST /api/parking - 500 (116ms)[39m
+2026-04-27 20:11:25:1125 [33mwarn[39m: [33m[mohb243z1xd8dbajv2] latitude must be at most 90[39m
+2026-04-27 20:11:25:1125 [33mwarn[39m: [33mPOST /api/parking - 400 (16ms)[39m
+2026-04-27 20:11:25:1125 [33mwarn[39m: [33m[mohb245ko0wabmgtqx] hourlyRate must be at least 0[39m
+2026-04-27 20:11:25:1125 [33mwarn[39m: [33mPOST /api/parking - 400 (17ms)[39m
+2026-04-27 20:11:25:1125 [33mwarn[39m: [33m[mohb24711ttkqvbl25p] totalSpots must be at least 1[39m
+2026-04-27 20:11:25:1125 [33mwarn[39m: [33mPOST /api/parking - 400 (10ms)[39m
+2026-04-27 20:11:25:1125 [33mwarn[39m: [33m[mohb247x9i9ih4ivhw5] Invalid or expired token[39m
+2026-04-27 20:11:25:1125 [33mwarn[39m: [33mPOST /api/parking - 401 (14ms)[39m
+2026-04-27 20:11:25:1125 [31merror[39m: [31m[mohb24a2ulik8g4f1p] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:25:1125 [31merror[39m: [31mGET /api/parking - 500 (53ms)[39m
+2026-04-27 20:11:25:1125 [31merror[39m: [31m[mohb24chhtgv8bzxeeb] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:25:1125 [31merror[39m: [31mGET /api/parking - 500 (57ms)[39m
+2026-04-27 20:11:25:1125 [31merror[39m: [31m[mohb24em0ovqhxgkjhv] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:25:1125 [31merror[39m: [31mGET /api/parking - 500 (53ms)[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31m[mohb24h0wcgau3b5hn] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31mPOST /api/parking - 500 (55ms)[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31m[mohb24jhm0v61wyyyq] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31mGET /api/parking/00000000-0000-0000-0000-000000000000 - 500 (63ms)[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31m[mohb24m6vysdnripd4] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31mGET /api/parking/nearby - 500 (79ms)[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31m[mohb24p8at2lradp1fl] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31mGET /api/parking/nearby - 500 (65ms)[39m
+2026-04-27 20:11:26:1126 [33mwarn[39m: [33m[mohb24qcb7ga4268ij9] latitude and longitude are required numbers[39m
+2026-04-27 20:11:26:1126 [33mwarn[39m: [33mGET /api/parking/nearby - 400 (8ms)[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31m[mohb24sf4n5zs1gzjc] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31mGET /api/parking/search/area - 500 (58ms)[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31m[mohb24uvg8y11xws99] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31mGET /api/parking/search/area - 500 (60ms)[39m
+2026-04-27 20:11:27:1127 [33mwarn[39m: [33m[mohb25f3p5futcu7lfa] parkingId is required[39m
+2026-04-27 20:11:27:1127 [33mwarn[39m: [33mPOST /api/booking - 400 (22ms)[39m
+2026-04-27 20:11:27:1127 [33mwarn[39m: [33m[mohb25gckutkk8x0lzi] parkingId is required[39m
+2026-04-27 20:11:27:1127 [33mwarn[39m: [33mPOST /api/booking - 400 (10ms)[39m
+2026-04-27 20:11:27:1127 [33mwarn[39m: [33m[mohb25hb42yuvh0431a] parkingId is required[39m
+2026-04-27 20:11:27:1127 [33mwarn[39m: [33mPOST /api/booking - 400 (11ms)[39m
+2026-04-27 20:11:27:1127 [33mwarn[39m: [33m[mohb25i6accvu4duezs] Authorization token missing[39m
+2026-04-27 20:11:27:1127 [33mwarn[39m: [33mPOST /api/booking - 401 (16ms)[39m
+2026-04-27 20:11:27:1127 [31merror[39m: [31m[mohb25kon1sdpv5fi4] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:27:1127 [31merror[39m: [31mGET /api/booking/history/user - 500 (74ms)[39m
+2026-04-27 20:11:27:1127 [31merror[39m: [31m[mohb25nabrx6mg51kgn] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:27:1127 [31merror[39m: [31mGET /api/booking/history/user - 500 (59ms)[39m
+2026-04-27 20:11:27:1127 [33mwarn[39m: [33m[mohb25oexns9ihnzbk] Authorization token missing[39m
+2026-04-27 20:11:27:1127 [33mwarn[39m: [33mGET /api/booking/history/user - 401 (15ms)[39m
+2026-04-27 20:11:27:1127 [31merror[39m: [31m[mohb25qubsklso4pxbl] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:27:1127 [31merror[39m: [31mGET /api/booking/00000000-0000-0000-0000-000000000000 - 500 (61ms)[39m
+2026-04-27 20:11:27:1127 [33mwarn[39m: [33m[mohb25s5goj5deq1pr] parkingId is required[39m
+2026-04-27 20:11:27:1127 [33mwarn[39m: [33mPOST /api/booking - 400 (13ms)[39m
+2026-04-27 20:11:27:1127 [31merror[39m: [31m[mohb25u9odpqoqstnwq] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:27:1127 [31merror[39m: [31mDELETE /api/booking/00000000-0000-0000-0000-000000000000 - 500 (58ms)[39m
+2026-04-27 20:11:27:1127 [33mwarn[39m: [33m[mohb25v9u2ac7yh8dlh] Authorization token missing[39m
+2026-04-27 20:11:27:1127 [33mwarn[39m: [33mDELETE /api/booking/undefined - 401 (10ms)[39m
+2026-04-27 20:11:28:1128 [33mwarn[39m: [33m[mohb26j21mfwcszasb3] phoneNumber must be a 10 digit number[39m
+2026-04-27 20:11:28:1128 [33mwarn[39m: [33mPOST /api/auth/otp/request - 400 (15ms)[39m
+2026-04-27 20:11:28:1128 [33mwarn[39m: [33m[mohb26kj68jmx1fa08i] phoneNumber must be a 10 digit number[39m
+2026-04-27 20:11:28:1128 [33mwarn[39m: [33mPOST /api/auth/otp/request - 400 (13ms)[39m
+2026-04-27 20:11:28:1128 [33mwarn[39m: [33m[mohb26m0thd2m7v183h] phoneNumber is required[39m
+2026-04-27 20:11:28:1128 [33mwarn[39m: [33mPOST /api/auth/otp/request - 400 (19ms)[39m
+2026-04-27 20:11:28:1128 [33mwarn[39m: [33m[mohb26n64o13l5fbgvw] phoneNumber must be a 10 digit number[39m
+2026-04-27 20:11:28:1128 [33mwarn[39m: [33mPOST /api/auth/otp/request - 400 (10ms)[39m
+2026-04-27 20:11:28:1128 [33mwarn[39m: [33m[mohb26o8xqzy0swwfr] phoneNumber must be a 10 digit number[39m
+2026-04-27 20:11:28:1128 [33mwarn[39m: [33mPOST /api/auth/otp/verify - 400 (9ms)[39m
+2026-04-27 20:11:29:1129 [33mwarn[39m: [33m[mohb26rn6btazacoovr] Authorization token missing[39m
+2026-04-27 20:11:29:1129 [33mwarn[39m: [33mGET /api/auth/me - 401 (17ms)[39m
+2026-04-27 20:11:29:1129 [33mwarn[39m: [33m[mohb26sqlnyu64wfok] Invalid or expired token[39m
+2026-04-27 20:11:29:1129 [33mwarn[39m: [33mGET /api/auth/me - 401 (19ms)[39m
+2026-04-28 11:32:34:3234 [33mwarn[39m: [33m⚠️ Database connection failed (continuing in dev mode):[39m
+2026-04-28 11:32:34:3234 [33mwarn[39m: [33mTo use the API, start PostgreSQL or use the integration tests[39m
+2026-04-28 11:32:34:3234 [32minfo[39m: [32m🚀 MOOFU backend running on port 5000[39m
+2026-04-28 11:32:34:3234 [32minfo[39m: [32m📚 API docs: http://localhost:5000/api[39m
+2026-04-28 11:32:34:3234 [32minfo[39m: [32m💚 Health check: http://localhost:5000/health[39m
+2026-04-28 11:34:04:344 [33mwarn[39m: [33m⚠️ Database connection failed (continuing in dev mode):[39m
+2026-04-28 11:34:04:344 [33mwarn[39m: [33mTo use the API, start PostgreSQL or use the integration tests[39m
+2026-04-28 11:34:04:344 [32minfo[39m: [32m🚀 MOOFU backend running on port 5000[39m
+2026-04-28 11:34:04:344 [32minfo[39m: [32m📚 API docs: http://localhost:5000/api[39m
+2026-04-28 11:34:04:344 [32minfo[39m: [32m💚 Health check: http://localhost:5000/health[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31m[moi82yiim6xaemcpndn] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31mPOST /api/parking - 500 (77ms)[39m
+2026-04-28 11:35:52:3552 [33mwarn[39m: [33m[moi82yjxy3asu1omuj] latitude must be at most 90[39m
+2026-04-28 11:35:52:3552 [33mwarn[39m: [33mPOST /api/parking - 400 (11ms)[39m
+2026-04-28 11:35:52:3552 [33mwarn[39m: [33m[moi82yl2to1j91whgt] hourlyRate must be at least 0[39m
+2026-04-28 11:35:52:3552 [33mwarn[39m: [33mPOST /api/parking - 400 (24ms)[39m
+2026-04-28 11:35:52:3552 [33mwarn[39m: [33m[moi82ymp1c3fj8kjh1i] totalSpots must be at least 1[39m
+2026-04-28 11:35:52:3552 [33mwarn[39m: [33mPOST /api/parking - 400 (9ms)[39m
+2026-04-28 11:35:52:3552 [33mwarn[39m: [33m[moi82ynhcdadeeipee] Invalid or expired token[39m
+2026-04-28 11:35:52:3552 [33mwarn[39m: [33mPOST /api/parking - 401 (10ms)[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31m[moi82yp9cjl4awbmyt7] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31mGET /api/parking - 500 (41ms)[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31m[moi82yqytqp61loqo7o] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31mGET /api/parking - 500 (43ms)[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31m[moi82ysoyr00x5tulx] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31mGET /api/parking - 500 (43ms)[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31m[moi82yuhctexd1jr5sh] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31mPOST /api/parking - 500 (38ms)[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31m[moi82yw5r86o90lghc] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31mGET /api/parking/00000000-0000-0000-0000-000000000000 - 500 (43ms)[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31m[moi82yxs0cyxoewdod1q] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31mGET /api/parking/nearby - 500 (42ms)[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31m[moi82yzdr573ec89mu8] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31mGET /api/parking/nearby - 500 (39ms)[39m
+2026-04-28 11:35:52:3552 [33mwarn[39m: [33m[moi82z02ce0p2wkw2rr] latitude and longitude are required numbers[39m
+2026-04-28 11:35:52:3552 [33mwarn[39m: [33mGET /api/parking/nearby - 400 (6ms)[39m
+2026-04-28 11:35:53:3553 [31merror[39m: [31m[moi82z1mupz2higw4po] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:53:3553 [31merror[39m: [31mGET /api/parking/search/area - 500 (46ms)[39m
+2026-04-28 11:35:53:3553 [31merror[39m: [31m[moi82z3o8ue5jux02vk] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:53:3553 [31merror[39m: [31mGET /api/parking/search/area - 500 (59ms)[39m
+2026-04-28 11:35:53:3553 [33mwarn[39m: [33m[moi82zir36k30btwfx] phoneNumber must be a 10 digit number[39m
+2026-04-28 11:35:53:3553 [33mwarn[39m: [33mPOST /api/auth/otp/request - 400 (10ms)[39m
+2026-04-28 11:35:53:3553 [33mwarn[39m: [33m[moi82zjvl6bb82clryr] phoneNumber must be a 10 digit number[39m
+2026-04-28 11:35:53:3553 [33mwarn[39m: [33mPOST /api/auth/otp/request - 400 (16ms)[39m
+2026-04-28 11:35:53:3553 [33mwarn[39m: [33m[moi82zl30xfoz9evfbm] phoneNumber is required[39m
+2026-04-28 11:35:53:3553 [33mwarn[39m: [33mPOST /api/auth/otp/request - 400 (9ms)[39m
+2026-04-28 11:35:53:3553 [33mwarn[39m: [33m[moi82zlwarjlgg20pc4] phoneNumber must be a 10 digit number[39m
+2026-04-28 11:35:53:3553 [33mwarn[39m: [33mPOST /api/auth/otp/request - 400 (7ms)[39m
+2026-04-28 11:35:53:3553 [33mwarn[39m: [33m[moi82zmiurc7xxk3yd] phoneNumber must be a 10 digit number[39m
+2026-04-28 11:35:53:3553 [33mwarn[39m: [33mPOST /api/auth/otp/verify - 400 (7ms)[39m
+2026-04-28 11:35:53:3553 [33mwarn[39m: [33m[moi82zox2f4rvb48a17] Authorization token missing[39m
+2026-04-28 11:35:53:3553 [33mwarn[39m: [33mGET /api/auth/me - 401 (8ms)[39m
+2026-04-28 11:35:53:3553 [33mwarn[39m: [33m[moi82zplb3sd32vlw3t] Invalid or expired token[39m
+2026-04-28 11:35:53:3553 [33mwarn[39m: [33mGET /api/auth/me - 401 (8ms)[39m
+2026-04-28 11:35:54:3554 [33mwarn[39m: [33m[moi83054e0nuue4h26d] parkingId is required[39m
+2026-04-28 11:35:54:3554 [33mwarn[39m: [33mPOST /api/booking - 400 (9ms)[39m
+2026-04-28 11:35:54:3554 [33mwarn[39m: [33m[moi8305xq8zv9966ho] parkingId is required[39m
+2026-04-28 11:35:54:3554 [33mwarn[39m: [33mPOST /api/booking - 400 (9ms)[39m
+2026-04-28 11:35:54:3554 [33mwarn[39m: [33m[moi8306p1y9lvl4s7vu] parkingId is required[39m
+2026-04-28 11:35:54:3554 [33mwarn[39m: [33mPOST /api/booking - 400 (7ms)[39m
+2026-04-28 11:35:54:3554 [33mwarn[39m: [33m[moi8307gypjqjunatbj] Authorization token missing[39m
+2026-04-28 11:35:54:3554 [33mwarn[39m: [33mPOST /api/booking - 401 (10ms)[39m
+2026-04-28 11:35:54:3554 [31merror[39m: [31m[moi8309cxomfcaojxxm] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:54:3554 [31merror[39m: [31mGET /api/booking/history/user - 500 (56ms)[39m
+2026-04-28 11:35:54:3554 [31merror[39m: [31m[moi830b9453ij561ssa] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:54:3554 [31merror[39m: [31mGET /api/booking/history/user - 500 (43ms)[39m
+2026-04-28 11:35:54:3554 [33mwarn[39m: [33m[moi830c11x4mqnl3c6a] Authorization token missing[39m
+2026-04-28 11:35:54:3554 [33mwarn[39m: [33mGET /api/booking/history/user - 401 (9ms)[39m
+2026-04-28 11:35:54:3554 [31merror[39m: [31m[moi830dtzlzb3davchq] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:54:3554 [31merror[39m: [31mGET /api/booking/00000000-0000-0000-0000-000000000000 - 500 (46ms)[39m
+2026-04-28 11:35:54:3554 [33mwarn[39m: [33m[moi830epaspl4x4wf2] parkingId is required[39m
+2026-04-28 11:35:54:3554 [33mwarn[39m: [33mPOST /api/booking - 400 (8ms)[39m
+2026-04-28 11:35:54:3554 [31merror[39m: [31m[moi830gchwf3bsb2hre] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:54:3554 [31merror[39m: [31mDELETE /api/booking/00000000-0000-0000-0000-000000000000 - 500 (44ms)[39m
+2026-04-28 11:35:54:3554 [33mwarn[39m: [33m[moi830h6wu26mf1td0b] Authorization token missing[39m
+2026-04-28 11:35:54:3554 [33mwarn[39m: [33mDELETE /api/booking/undefined - 401 (7ms)[39m
+2026-04-28 11:45:06:456 [33mwarn[39m: [33m⚠️ Database connection failed (continuing in dev mode):[39m
+2026-04-28 11:45:06:456 [33mwarn[39m: [33mTo use the API, start PostgreSQL or use the integration tests[39m
+2026-04-28 11:45:06:456 [32minfo[39m: [32m🚀 MOOFU backend running on port 5000[39m
+2026-04-28 11:45:06:456 [32minfo[39m: [32m📚 API docs: http://localhost:5000/api[39m
+2026-04-28 11:45:06:456 [32minfo[39m: [32m💚 Health check: http://localhost:5000/health[39m
+2026-04-28 11:45:13:4513 [33mwarn[39m: [33m⚠️ Database connection failed (continuing in dev mode):[39m
+2026-04-28 11:45:13:4513 [33mwarn[39m: [33mTo use the API, start PostgreSQL or use the integration tests[39m
+2026-04-28 11:45:13:4513 [32minfo[39m: [32m🚀 MOOFU backend running on port 5000[39m
+2026-04-28 11:45:13:4513 [32minfo[39m: [32m📚 API docs: http://localhost:5000/api[39m
+2026-04-28 11:45:13:4513 [32minfo[39m: [32m💚 Health check: http://localhost:5000/health[39m
+2026-04-28 11:49:05:495 [33mwarn[39m: [33m⚠️ Database connection failed (continuing in dev mode):[39m
+2026-04-28 11:49:05:495 [33mwarn[39m: [33mTo use the API, start PostgreSQL or use the integration tests[39m
+2026-04-28 11:49:05:495 [32minfo[39m: [32m🚀 MOOFU backend running on port 5000[39m
+2026-04-28 11:49:05:495 [32minfo[39m: [32m📚 API docs: http://localhost:5000/api[39m
+2026-04-28 11:49:05:495 [32minfo[39m: [32m💚 Health check: http://localhost:5000/health[39m
+2026-04-28 11:49:32:4932 [33mwarn[39m: [33m⚠️ Database connection failed (continuing in dev mode):[39m
+2026-04-28 11:49:32:4932 [33mwarn[39m: [33mTo use the API, start PostgreSQL or use the integration tests[39m
+2026-04-28 11:49:32:4932 [32minfo[39m: [32m🚀 MOOFU backend running on port 5000[39m
+2026-04-28 11:49:32:4932 [32minfo[39m: [32m📚 API docs: http://localhost:5000/api[39m
+2026-04-28 11:49:32:4932 [32minfo[39m: [32m💚 Health check: http://localhost:5000/health[39m

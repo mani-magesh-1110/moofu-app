@@ -1,0 +1,86 @@
+2026-04-27 20:05:03:53 [31merror[39m: [31m[mohatxf4qyg4x9y6kr] [39m
+2026-04-27 20:05:03:53 [31merror[39m: [31mPOST /api/auth/login - 500 (34ms)[39m
+2026-04-27 20:10:12:1012 [31merror[39m: [31m[mohb0jvway8hqsyswtm] [39m
+2026-04-27 20:10:12:1012 [31merror[39m: [31mPOST /api/parking - 500 (141ms)[39m
+2026-04-27 20:10:12:1012 [31merror[39m: [31m[mohb0k3rbchk68vulz9] [39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31mGET /api/parking - 500 (28ms)[39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31m[mohb0k5jpayikqqf59] [39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31mGET /api/parking - 500 (29ms)[39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31m[mohb0k7d4qmpd8ypjlc] [39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31mGET /api/parking - 500 (26ms)[39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31m[mohb0k9zv5ivmjtongq] [39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31mPOST /api/parking - 500 (43ms)[39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31m[mohb0kbm98y1toyzmtw] [39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31mGET /api/parking/00000000-0000-0000-0000-000000000000 - 500 (24ms)[39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31m[mohb0kdcxbc9ec2217h] [39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31mGET /api/parking/nearby - 500 (49ms)[39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31m[mohb0kfzccdv5zpb2rm] [39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31mGET /api/parking/nearby - 500 (27ms)[39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31m[mohb0kja18jxmdy0mr4] [39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31mGET /api/parking/search/area - 500 (30ms)[39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31m[mohb0kl0t2mknssq3e] [39m
+2026-04-27 20:10:13:1013 [31merror[39m: [31mGET /api/parking/search/area - 500 (27ms)[39m
+2026-04-27 20:10:16:1016 [31merror[39m: [31m[mohb0n1w8xnee7ns0px] [39m
+2026-04-27 20:10:16:1016 [31merror[39m: [31mGET /api/booking/history/user - 500 (33ms)[39m
+2026-04-27 20:10:16:1016 [31merror[39m: [31m[mohb0n3gyos3cfnusy] [39m
+2026-04-27 20:10:16:1016 [31merror[39m: [31mGET /api/booking/history/user - 500 (25ms)[39m
+2026-04-27 20:10:16:1016 [31merror[39m: [31m[mohb0n6jeqoiqxvuupe] [39m
+2026-04-27 20:10:17:1017 [31merror[39m: [31mGET /api/booking/00000000-0000-0000-0000-000000000000 - 500 (38ms)[39m
+2026-04-27 20:10:17:1017 [31merror[39m: [31m[mohb0n9l03y9wc01zr4h] [39m
+2026-04-27 20:10:17:1017 [31merror[39m: [31mDELETE /api/booking/00000000-0000-0000-0000-000000000000 - 500 (30ms)[39m
+2026-04-27 20:11:25:1125 [31merror[39m: [31m[mohb241bf3fraqx6575] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:25:1125 [31merror[39m: [31mPOST /api/parking - 500 (116ms)[39m
+2026-04-27 20:11:25:1125 [31merror[39m: [31m[mohb24a2ulik8g4f1p] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:25:1125 [31merror[39m: [31mGET /api/parking - 500 (53ms)[39m
+2026-04-27 20:11:25:1125 [31merror[39m: [31m[mohb24chhtgv8bzxeeb] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:25:1125 [31merror[39m: [31mGET /api/parking - 500 (57ms)[39m
+2026-04-27 20:11:25:1125 [31merror[39m: [31m[mohb24em0ovqhxgkjhv] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:25:1125 [31merror[39m: [31mGET /api/parking - 500 (53ms)[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31m[mohb24h0wcgau3b5hn] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31mPOST /api/parking - 500 (55ms)[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31m[mohb24jhm0v61wyyyq] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31mGET /api/parking/00000000-0000-0000-0000-000000000000 - 500 (63ms)[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31m[mohb24m6vysdnripd4] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31mGET /api/parking/nearby - 500 (79ms)[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31m[mohb24p8at2lradp1fl] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31mGET /api/parking/nearby - 500 (65ms)[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31m[mohb24sf4n5zs1gzjc] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31mGET /api/parking/search/area - 500 (58ms)[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31m[mohb24uvg8y11xws99] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:26:1126 [31merror[39m: [31mGET /api/parking/search/area - 500 (60ms)[39m
+2026-04-27 20:11:27:1127 [31merror[39m: [31m[mohb25kon1sdpv5fi4] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:27:1127 [31merror[39m: [31mGET /api/booking/history/user - 500 (74ms)[39m
+2026-04-27 20:11:27:1127 [31merror[39m: [31m[mohb25nabrx6mg51kgn] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:27:1127 [31merror[39m: [31mGET /api/booking/history/user - 500 (59ms)[39m
+2026-04-27 20:11:27:1127 [31merror[39m: [31m[mohb25qubsklso4pxbl] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:27:1127 [31merror[39m: [31mGET /api/booking/00000000-0000-0000-0000-000000000000 - 500 (61ms)[39m
+2026-04-27 20:11:27:1127 [31merror[39m: [31m[mohb25u9odpqoqstnwq] password authentication failed for user "postgres"[39m
+2026-04-27 20:11:27:1127 [31merror[39m: [31mDELETE /api/booking/00000000-0000-0000-0000-000000000000 - 500 (58ms)[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31m[moi82yiim6xaemcpndn] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31mPOST /api/parking - 500 (77ms)[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31m[moi82yp9cjl4awbmyt7] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31mGET /api/parking - 500 (41ms)[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31m[moi82yqytqp61loqo7o] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31mGET /api/parking - 500 (43ms)[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31m[moi82ysoyr00x5tulx] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31mGET /api/parking - 500 (43ms)[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31m[moi82yuhctexd1jr5sh] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31mPOST /api/parking - 500 (38ms)[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31m[moi82yw5r86o90lghc] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31mGET /api/parking/00000000-0000-0000-0000-000000000000 - 500 (43ms)[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31m[moi82yxs0cyxoewdod1q] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31mGET /api/parking/nearby - 500 (42ms)[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31m[moi82yzdr573ec89mu8] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:52:3552 [31merror[39m: [31mGET /api/parking/nearby - 500 (39ms)[39m
+2026-04-28 11:35:53:3553 [31merror[39m: [31m[moi82z1mupz2higw4po] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:53:3553 [31merror[39m: [31mGET /api/parking/search/area - 500 (46ms)[39m
+2026-04-28 11:35:53:3553 [31merror[39m: [31m[moi82z3o8ue5jux02vk] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:53:3553 [31merror[39m: [31mGET /api/parking/search/area - 500 (59ms)[39m
+2026-04-28 11:35:54:3554 [31merror[39m: [31m[moi8309cxomfcaojxxm] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:54:3554 [31merror[39m: [31mGET /api/booking/history/user - 500 (56ms)[39m
+2026-04-28 11:35:54:3554 [31merror[39m: [31m[moi830b9453ij561ssa] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:54:3554 [31merror[39m: [31mGET /api/booking/history/user - 500 (43ms)[39m
+2026-04-28 11:35:54:3554 [31merror[39m: [31m[moi830dtzlzb3davchq] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:54:3554 [31merror[39m: [31mGET /api/booking/00000000-0000-0000-0000-000000000000 - 500 (46ms)[39m
+2026-04-28 11:35:54:3554 [31merror[39m: [31m[moi830gchwf3bsb2hre] password authentication failed for user "postgres"[39m
+2026-04-28 11:35:54:3554 [31merror[39m: [31mDELETE /api/booking/00000000-0000-0000-0000-000000000000 - 500 (44ms)[39m
